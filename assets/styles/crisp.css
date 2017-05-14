@@ -6,7 +6,7 @@
 html, body {
 	font-size: 1em;
 	line-height: 1.65em;
-	font-family: "Open Sans", sans-serif;
+	font-family: Geneva, sans-serif;
 	font-weight: 300;
     background: #fff;
 	color: #444;
@@ -48,7 +48,7 @@ p, hr, h4, h5, h6 {
 }
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Bree Serif", serif;
+	font-family: Georgia, serif;
 	font-weight: 400 !important;
 }
 h1 {
@@ -109,9 +109,12 @@ hr{
 ul, ol {
 	margin-left: 3em;
 }
+
 code {
-	font-size:1.4em;
+	font-size: 12px;
 	background: #eee;
+	padding: 1px 3px 1px 3px;
+	font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
 }
 pre {
 	font-size: 0.8em;
@@ -124,6 +127,7 @@ pre {
 	white-space: -moz-pre-wrap;
 	white-space: pre-wrap;
 	white-space: pre\9;
+	border: 1px solid #d3d3d3;
 }
 input {
 	font-size:1em;
